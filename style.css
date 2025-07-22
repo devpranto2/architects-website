@@ -98,6 +98,50 @@ main{
     color:#FF900E ;
 }
 
+/* feature section styles  */
+.feature{
+    margin-top: 100px;
+    gap: 100px;
+
+}
+.feature-big-title{
+    border-left: 5px solid #FF900E;
+    font-size: 2.8rem;
+    padding-left: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.feature-des{
+    box-shadow:0 4px 30px 0 rgba(0,0,0, 0.06) ;
+    margin-bottom: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    
+} 
+
+.feature-title{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.btn-2{
+    font-size: 55px;
+    font-weight: bold;
+
+}
+.btn-3{
+    font-size: 25px;
+    font-weight: 600;
+}
+#exp-badge{
+    padding: 35px 32px;
+    margin-top: -90px;
+    margin-left: -70px;
+}
+
 /* Some Facts section  */
 
 .fact-title{
@@ -196,7 +240,16 @@ main{
     grid-template-columns:repeat(1, 1fr);
     gap: 20px;
 }
+.feature{
+    flex-direction: column;
+}
+.featurediv img{
+    width: 100%;
+}
+#exp-badge{
+    margin: 20px auto;
 
+}
 
 
 }
@@ -226,6 +279,9 @@ main{
 .sponsor-com{
     grid-template-columns:repeat(1, 1fr);
     gap: 20px;
+}
+.feature{
+    flex-direction: column;
 }
 
 }
